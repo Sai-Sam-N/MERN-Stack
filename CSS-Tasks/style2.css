@@ -1,0 +1,14 @@
+body{
+    font-size: xx-large;
+}
+ul{
+    padding: 300px 900px; /*vertical padding (From top), horizontal padding (From left)*/
+}
+li{
+    list-style: none;
+    padding: 10px 30px; /*between lines, between bulletin and the sentence*/
+    background-image: url("Red_star.svg.png");
+    background-repeat: no-repeat; /* prevents whole line of repeating stars */
+    background-position: left center; /* element on left, center of the line (not top / bottom) */
+    background-size: 30px;
+}
