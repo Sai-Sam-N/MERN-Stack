@@ -1,9 +1,12 @@
 body{
     font-size: xx-large;
 }
+/*vertical padding (From top), horizontal padding (From left)*/
+/*
 ul{
-    padding: 300px 900px; /*vertical padding (From top), horizontal padding (From left)*/
+    padding: 300px 900px; 
 }
+*/
 li{
     list-style: none;
     padding: 10px 30px; /*between lines, between bulletin and the sentence*/
