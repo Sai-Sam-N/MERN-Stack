@@ -1,0 +1,26 @@
+table{
+    width: 100%;
+    padding: 80px 30px;
+    border-collapse: collapse; /*removes borders*/
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+tr{
+    border: 1px solid;
+    border-color: #DDDDDD;
+}
+th , td {
+    padding: 15px;
+}
+th{
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.odd{
+    background-color: #E7E9EB;
+}
+.even{
+    background-color: rgb(255,255,255);
+}
