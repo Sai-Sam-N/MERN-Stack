@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+.center{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+}
+
+form .textfield{
+    position: relative;
+}
+
+.textfield input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid;
+    border-color: silver;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+input[type="submit"]{
+    margin: 0 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #20b08e;
+    /* background-color: #8ea077; */
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+input[type="checkbox"]{
+    margin: 15px 5px;
+    width: 2%;
+    height: 15px;
+}
+input[type="button"]{
+    width: 13%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 0.1cm;
+}
+form #rem{
+    color: black;
+    font-size: 18px;
+    padding-left: 0px;
+}
+form .end #fps, form .end #fps a{
+    /* text-decoration: none; */
+    font-size: 16px;
+    color: black;
+}
+form .end{
+    display: flex;
+    justify-content: space-between;
+}
