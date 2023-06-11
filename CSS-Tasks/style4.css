@@ -1,0 +1,28 @@
+/* remove the bullets and the margins and padding from the list: */
+ul{
+    list-style-type: none;
+    margin: 0; /*top spacing*/
+    padding: 0; /*side spacing*/
+    width: 300px;
+    font-size: xx-large;
+}
+#home a{
+    background-color: orange;
+    color: white;
+}
+.others a, .others a:active, .others a:visited{
+    background-color: lightblue;
+    color: blue;
+}
+.others a:hover, #home a:hover{
+    background-color: black;
+}
+/* .others a:focus{
+    background-color: blueviolet;
+    color: black;
+} */
+li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
