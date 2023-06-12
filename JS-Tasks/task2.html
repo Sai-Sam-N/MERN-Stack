@@ -1,0 +1,78 @@
+<html>
+
+<head>
+
+  <script type="text/javascript">
+
+    function page_redirect() {
+      window.location = "http://127.0.0.1:5500/Ethnus/JavaScript/task22.html";
+    }
+
+  </script>
+
+</head>
+
+<body>
+
+  <h1>Page 1</h1>
+
+  <form>
+
+    <input type="button" value="Next" onclick="page_redirect()" />
+
+  </form>
+
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <h1>Page 1</h1>
+    <button>Next</button>
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button Click Message</title>
+  <script>
+    var clickCount = 0;
+    var val;
+    
+    function displayMessage() {
+      clickCount++;
+      //val = val%2
+      
+      var message;
+      switch (clickCount) {
+        case 1:
+          message = "First button click!";
+          break;
+        case 2:
+          message = "Second button click!";
+          break;
+        case 3:
+          message = "Third button click!";
+          break;
+        default:
+          message = "Button clicked " + clickCount + " times!";
+      }
+      
+      document.getElementById("result").innerHTML = message;
+    }
+  </script>
+</head>
+<body>
+  <h1>Button Click Message</h1>
+  <button onclick="displayMessage()">Click me!</button>
+  <h1 id="result"></h1>
+</body>
+</html> -->
