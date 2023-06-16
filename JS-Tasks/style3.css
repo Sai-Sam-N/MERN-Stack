@@ -1,0 +1,64 @@
+:root{
+    --error : red;
+    --success : green;
+}
+
+body {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-container textarea{
+    vertical-align: top;
+}
+
+.form-container{
+    width: 500px;
+    margin: 20px;
+}
+
+.form-container input{
+    display: inline;
+    width: 40%;
+    padding: 3px;
+}
+
+.form-container.error input{
+    border: 3px solid;
+    border-color: var(--error);
+}
+
+.form-container.success input{
+    border: 3px solid;
+    border-color: var(--success);
+}
+
+.form-container.error textarea{
+    border: 3px solid;
+    border-color: var(--error);
+}
+
+.form-container.success textarea{
+    border: 3px solid;
+    border-color: var(--success);
+}
+
+.form-container small{
+    visibility: hidden;
+}
+
+.form-container.error small{
+    visibility: visible;
+    color: red;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container button{
+    font-size: 16px;
+    margin-left: 80px;
+}
